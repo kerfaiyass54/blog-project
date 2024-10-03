@@ -11,7 +11,6 @@ html, body {
   justify-content: flex-start;
   align-items: center;
   height: 100vh;
-  background: url('D:/projects/blog-app/src/assets/bakcground.jpg');
   background-size: cover;
   padding: 20px;
 }
@@ -19,7 +18,7 @@ html, body {
 
 .title {
   font-size: 120px;
-  color: #eef0f3;
+  color: #156df2;
   margin-top: 20px; /* Space from top */
   margin-bottom: 20px;
   font-weight: bold;
