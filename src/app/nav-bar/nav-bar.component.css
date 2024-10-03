@@ -1,0 +1,59 @@
+/* Ensure the body and html take up the full viewport height */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  background: url('D:/projects/blog-app/src/assets/bakcground.jpg');
+  background-size: cover;
+  padding: 20px;
+}
+
+
+.title {
+  font-size: 120px;
+  color: #eef0f3;
+  margin-top: 20px; /* Space from top */
+  margin-bottom: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(82, 76, 76, 0.5);
+  font-family: Courier New;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* Space between buttons */
+  margin-bottom: 30px; /* Space below navbar */
+}
+
+/* Navbar buttons */
+.navbar-toggler {
+  background-color: #f10a44;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.navbar-toggler:hover {
+  background-color: #f10a44;
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgb(210, 11, 87);
+}

@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+/* Ensure the body and html take up the full viewport height */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+  background: url('assets/bakcground.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure body takes up at least full viewport height */
+}
+
+/* Ensure the app container stretches to fill available space */
+.app-container {
+  flex: 1; /* Allow the container to grow and fill available space */
+}
